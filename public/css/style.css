@@ -1,0 +1,37 @@
+body {
+  /* background-color: aqua; */
+  background: linear-gradient(
+    to left,
+    rgb(158, 158, 243) 10%,
+    rgb(247, 181, 60) 100%
+  );
+  color: rgb(45, 4, 61);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#side {
+  border: 2px solid black;
+  padding: 2px;
+  width: 34vw;
+  border-radius: 20px;
+
+}
+#body1 {
+  border: 2px solid black;
+  padding: 2px;
+  width: 65vw;
+  border-radius: 20px;
+
+}
+#formcont form input,
+#formcont form button {
+  padding-top: 2px;
+  border-radius: 10px;
+  /* background-color: red; */
+  display: block;
+}
+button:hover {
+  color: rgb(255, 230, 0);
+  background-color: darkslategrey;
+  border-radius: 10px;
+}

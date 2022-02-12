@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <div id="side">
+      <!-- create part -->
+      <div id="formcont">
+        <h4>create student</h4>
+        <form id="form">
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="enter name"
+          /><br />
+          <input
+            type="text"
+            name="std_id"
+            id="std_id"
+            placeholder="enter std_id"
+          /><br />
+          <input
+            type="text"
+            name="email"
+            id="email"
+            placeholder="enter email"
+          /><br />
+          <input
+            type="text"
+            name="courses"
+            id="courses"
+            placeholder="enter courses"
+          /><br />
+          <button type="submit">Submit details</button><br />
+        </form>
+        <br />
+      </div>
+      <!-- fetch or read part -->
+      <div id="formcont">
+        <h4>fetch all students</h4>
+        <button id="view" style="display: block">fetch all data</button>
+        <br />
+        <!-- update part -->
+        <h4>update student</h4>
+        <form id="form_update">
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="enter name"
+          /><br />
+          <input
+            type="text"
+            name="std_id"
+            id="std_id"
+            placeholder="enter std_id"
+          /><br />
+          <input
+            type="text"
+            name="email"
+            id="email"
+            placeholder="enter email"
+          /><br />
+          <input
+            type="text"
+            name="courses"
+            id="courses"
+            placeholder="enter courses"
+          /><br />
+          <input
+            type="text"
+            name="mongo_id"
+            id="mongo_id"
+            placeholder="enter mongo_id"
+          /><br />
+
+          <button type="submit">Submit details</button><br />
+        </form>
+        <br />
+      </div>
+      <!-- delete part -->
+      <div id="formcont">
+        <h4>delete student</h4>
+        <form action="" id="form_delete">
+          <input type="text" name="mongo_id" id="mongo_id" />
+          
+          <button type="submit" id="delete">
+            delete
+          </button>
+        </form>
+      </div>
+    </div>
+    <div id="body1"></div>
+    <script src="../js/app.js"></script>
+  </body>
+</html>
